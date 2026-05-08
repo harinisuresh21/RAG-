@@ -1,4 +1,4 @@
-# Day 1 — Deep Introduction to RAG (Retrieval-Augmented Generation)
+# Day 1 Deep Introduction to RAG (Retrieval-Augmented Generation)
 
 ## 🎯 Objective
 
