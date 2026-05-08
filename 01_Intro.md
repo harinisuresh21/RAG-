@@ -177,7 +177,7 @@ Examples:
 
 ---
 
-## ⚠️ 5. Where RAG Systems Fail (Important for Interviews)
+## ⚠️ 5. Where RAG Systems Fail 
 
 ### ❌ Poor Chunking  
 - Too large → irrelevant context  
