@@ -73,25 +73,25 @@ LLMs are priced per token.
 
 More tokens result in higher cost.
 
----
+
 
 ### Context Limit
 LLMs can only process a limited number of tokens at once.
 
----
+
 
 ### Performance
 Too many tokens:
 - increase latency
 - reduce efficiency
 
----
+
 
 ## 4. Context Window
 
 The context window is the maximum number of tokens an LLM can process in a single request.
 
----
+
 
 ### Example
 
@@ -100,7 +100,7 @@ If a model supports 8000 tokens, the following must fit within that limit:
 - retrieved documents
 - user query
 
----
+
 
 ### Why This Matters for RAG
 
@@ -129,13 +129,10 @@ It typically contains:
 
 What is machine learning?
 
----
-
 ### Structured Prompt
 Answer the question clearly.
 Question: What is machine learning?
 
----
 
 ### RAG Prompt
 Answer using only the context below.
@@ -153,45 +150,36 @@ Question:
 ### Vague Prompts
 Example: "Explain this"
 
----
 
 ### No Constraints
 Model may generate incorrect or hallucinated answers
 
----
 
 ### Ignoring Context
 Not using retrieved information properly in RAG
 
----
 
 ### Excessively Long Prompts
 - increases cost
 - reduces clarity
 
----
 
 ## 7. Types of Prompts
 
 ### Instruction-Based
 Example: "Summarize the following text"
 
----
 
 ### Context-Based
 Provide information and ask a question
 
----
 
 ### Role-Based
 Example: "You are a legal expert"
 
----
 
 ### Few-shot Prompting
 Provide examples before asking the question
-
----
 
 ## 8. How LLM Generates Output
 
@@ -212,17 +200,13 @@ This process is called autoregressive generation.
 ### No True Understanding
 Output is based on probabilities, not reasoning
 
----
-
 ### Sensitive to Prompt
 Small changes can produce very different results
 
----
 
 ### No Memory by Default
 Each request is independent
 
----
 
 ### Context Loss
 Too much input may dilute important information
@@ -242,7 +226,7 @@ Too much input may dilute important information
 - Inject them into the prompt
 - Stay within context limits
 
----
+
 
 Key idea:
 RAG improves performance by optimizing the input given to the model.
@@ -264,14 +248,11 @@ LLM performance depends on:
 1. What is a token?  
 2. What is a context window?  
 
----
 
 ### Intermediate
 3. How do tokens affect cost?  
-4. What is prompt engineering?  
-
----
-
+4. What is prompt engineering?
+   
 ### Advanced
 5. Why is context window important in RAG?  
 6. How would you optimize prompt size?  
