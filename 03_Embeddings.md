@@ -16,16 +16,12 @@ Embeddings are numerical representations of text.
 
 They convert text into vectors (arrays of numbers) so that machines can understand meaning.
 
----
-
 ### Example
 
 Text:
 "cat" → [0.12, -0.45, 0.88, ...]
 
 "digital marketing" → [0.91, -0.12, 0.33, ...]
-
----
 
 ## Key Idea
 
@@ -34,7 +30,6 @@ Similar meanings → similar vectors
 Example:
 - "car" ≈ "vehicle"
 - "king" ≈ "queen"
-
 ---
 
 ## 2. Why Embeddings Matter in RAG
@@ -91,8 +86,6 @@ We will use `sentence-transformers`.
 ---
 pip install sentence-transformers
 
----
-
 ### Run the Code
 python embedding_demo.py
 
@@ -125,12 +118,8 @@ Everything in RAG depends on:
 ### Using wrong model
 Not all embedding models are good for semantic search
 
----
-
 ### Ignoring preprocessing
 Text cleaning improves results
-
----
 
 ### Comparing raw text instead of vectors
 Similarity must be computed on embeddings
