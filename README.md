@@ -115,9 +115,7 @@ rag-course/
 ## Getting Started
 
 ### 1. Clone the repository
-git clone https://github.com/your-username/rag-course.git
-
-cd rag-course
+git clone https://github.com/harinisuresh21/RAG-.git)
 
 ---
 
