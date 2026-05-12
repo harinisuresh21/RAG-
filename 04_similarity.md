@@ -224,7 +224,7 @@ Not just the LLM.
 ---
 ## Cosine Similarity Visualization
 
-![Cosine Similarity](../assets/cosine_similarity.png)
+![Cosine Similarity](assets/cosine_similarity.png)
 
 ## Next Step
 
