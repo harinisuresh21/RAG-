@@ -90,7 +90,7 @@ The FAISS-based retrieval pipeline follows this flow:
 
 ## Visual Representation
 
-![FAISS Flow](assets/faiss_flow.png)
+![FAISS Flow](../assets/faiss_flow.png)
 
 ---
 
