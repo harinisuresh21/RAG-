@@ -85,7 +85,6 @@ Popular models:
 
 We will use `sentence-transformers`.
 
----
 pip install sentence-transformers
 
 ### Run the Code
