@@ -56,6 +56,7 @@ Matches:
 - "Introduction to machine learning"
 
 Even if words are different, meaning is similar.
+
 ![RAG Pipeline](assets/embedding.png)
 
 ---
