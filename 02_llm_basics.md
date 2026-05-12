@@ -106,7 +106,7 @@ You cannot:
 You must:
 - retrieve only relevant chunks
 - optimize token usage
-
+![RAG Pipeline](assets/context_window.png)
 ---
 
 ## 5. Prompt as the Interface
@@ -156,6 +156,7 @@ Not using retrieved information properly in RAG
 - increases cost
 - reduces clarity
 
+---
 
 ## 7. Types of Prompts
 
@@ -173,6 +174,8 @@ Example: "You are a legal expert"
 
 ### Few-shot Prompting
 Provide examples before asking the question
+
+---
 
 ## 8. How LLM Generates Output
 
