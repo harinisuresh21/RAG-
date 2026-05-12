@@ -26,7 +26,7 @@ They **do NOT**:
 - Query databases  
 - Verify factual correctness  
 
-👉 They generate answers based on probability, not truth.
+They generate answers based on probability, not truth.
 
 ---
 
@@ -64,7 +64,7 @@ LLMs cannot naturally:
 
 LLMs can only process a limited number of tokens at once.
 
-👉 You **cannot directly input entire documents**
+You **cannot directly input entire documents**
 
 ---
 
@@ -90,7 +90,7 @@ User asks:
 ### Step 2 — Query Embedding  
 Convert the query into a vector representation.
 
-👉 This allows semantic comparison instead of keyword matching.
+This allows semantic comparison instead of keyword matching.
 
 
 ### Step 3 — Retrieval (Vector Search)  
@@ -102,7 +102,7 @@ Search for similar document chunks using:
 ### Step 4 — Context Selection  
 Select top-k most relevant chunks.
 
-⚠️ Critical Insight:  
+Critical Insight:  
 Bad chunks → Bad answer  
 
 ### Step 5 — Prompt Construction  
@@ -122,7 +122,9 @@ The LLM generates an answer based on:
 
 RAG does NOT improve the LLM.
 
-👉 It improves the **input given to the LLM**
+It improves the **input given to the LLM**
+
+![RAG Pipeline](assets/RAG_Architecture.png)
 
 ---
 
@@ -154,7 +156,9 @@ Examples:
 - Document loading  
 - Data cleaning  
 - Chunking  
-- Indexing  
+- Indexing
+
+  ![RAG Pipeline](assets/Rag_pipeline.png)
 
 ---
 
