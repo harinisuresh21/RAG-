@@ -31,6 +31,8 @@ This happens because:
 - The model has seen similar patterns during training
 - "Paris" has the highest probability in that context
 
+![RAG Pipeline](assets/llm_text.png)
+
 ---
 
 ## 2. What is a Token?
