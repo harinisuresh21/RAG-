@@ -222,6 +222,9 @@ RAG performance depends heavily on:
 Not just the LLM.
 
 ---
+## Cosine Similarity Visualization
+
+![Cosine Similarity](../assets/cosine_similarity.png)
 
 ## Next Step
 
