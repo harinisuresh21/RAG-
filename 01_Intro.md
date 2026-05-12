@@ -40,7 +40,6 @@ Example:
 Question: "What is the revenue of my startup?"  
 LLM: Generates a random number with confidence  
 
----
 
 ### 2. Static Knowledge
 
@@ -50,7 +49,7 @@ LLM: Generates a random number with confidence
   - private company data  
   - user-specific documents  
 
----
+
 
 ### 3. No Source Attribution
 
@@ -59,7 +58,7 @@ LLMs cannot naturally:
 - verify correctness  
 - trace where information came from  
 
----
+
 
 ### 4. Context Window Limitations
 
@@ -88,29 +87,23 @@ Instead of relying only on model memory, RAG:
 User asks:  
 "What are the key points in this policy document?"
 
----
-
 ### Step 2 — Query Embedding  
 Convert the query into a vector representation.
 
 👉 This allows semantic comparison instead of keyword matching.
 
----
 
 ### Step 3 — Retrieval (Vector Search)  
 Search for similar document chunks using:
 - cosine similarity  
 - nearest neighbor search  
 
----
 
 ### Step 4 — Context Selection  
 Select top-k most relevant chunks.
 
 ⚠️ Critical Insight:  
 Bad chunks → Bad answer  
-
----
 
 ### Step 5 — Prompt Construction  
 
@@ -120,14 +113,10 @@ Answer using ONLY the context below:
 
 Question: [user query]
 
----
-
 ### Step 6 — LLM Generation  
 The LLM generates an answer based on:
 - provided context  
 - prompt instructions  
-
----
 
 ## 📌 Key Insight
 
@@ -143,8 +132,6 @@ RAG does NOT improve the LLM.
 - Converts text → vectors  
 - Captures semantic meaning  
 
----
-
 ### 2. Vector Database  
 - Stores embeddings  
 - Enables fast similarity search  
@@ -154,19 +141,13 @@ Examples:
 - Pinecone  
 - Weaviate  
 
----
-
 ### 3. Retriever  
 - Finds relevant chunks  
 - Uses similarity metrics  
 
----
-
 ### 4. LLM (Generator)  
 - Produces final answer  
 - Uses retrieved context  
-
----
 
 ### 5. Data Pipeline (Often Ignored but Critical)
 
@@ -179,25 +160,19 @@ Examples:
 
 ## ⚠️ 5. Where RAG Systems Fail 
 
-### ❌ Poor Chunking  
+### Poor Chunking  
 - Too large → irrelevant context  
 - Too small → missing information  
 
----
-
-### ❌ Bad Retrieval  
+### Bad Retrieval  
 - Wrong documents selected  
 - Low-quality embeddings  
 
----
-
-### ❌ Weak Prompt Design  
+### Weak Prompt Design  
 - Vague instructions  
 - No grounding constraints  
 
----
-
-### ❌ Over-Reliance on LLM  
+### Over-Reliance on LLM  
 
 Even with RAG:  
 If retrieval is wrong → answer will still be wrong  
