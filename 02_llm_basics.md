@@ -46,8 +46,6 @@ They can be:
 - parts of words
 - punctuation
 
----
-
 ### Example
 
 Sentence:
@@ -58,7 +56,6 @@ Possible tokens:
 - " love"
 - " AI"
 
----
 
 ### Important Notes
 
@@ -93,16 +90,12 @@ Too many tokens:
 
 The context window is the maximum number of tokens an LLM can process in a single request.
 
-
-
 ### Example
 
 If a model supports 8000 tokens, the following must fit within that limit:
 - prompt
 - retrieved documents
 - user query
-
-
 
 ### Why This Matters for RAG
 
@@ -124,8 +117,6 @@ It typically contains:
 - instructions
 - context
 - question
-
----
 
 ### Basic Prompt
 
@@ -220,8 +211,6 @@ Too much input may dilute important information
 ### Problem
 - LLMs have limited context
 - Cannot access external data
-
----
 
 ### RAG Solution
 - Retrieve relevant chunks
